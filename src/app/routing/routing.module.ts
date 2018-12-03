@@ -6,6 +6,8 @@ import { SidenavMainComponent } from '../sidenav-main/sidenav-main.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'contact', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'sidenav', component: SidenavMainComponent }
 ];
 

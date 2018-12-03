@@ -7,6 +7,8 @@ import { SidenavMainComponent } from './sidenav-main/sidenav-main.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { RoutingModule } from './routing/routing.module';
+import { AboutComponent } from './about/about.component';
+import { ManagementComponent } from './management/management.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { RoutingModule } from './routing/routing.module';
     HeaderComponent,
     SidenavMainComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    ManagementComponent
   ],
   imports: [
     BrowserModule,

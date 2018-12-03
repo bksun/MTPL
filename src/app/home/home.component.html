@@ -1,3 +1,68 @@
-<p>
-  home works!
-</p>
+<div class="container">
+
+<h1 class="my-4 text-center text-lg-left">Thumbnail Gallery</h1>
+
+<div class="row">
+
+<!-- a new card  -->
+  <div *ngFor="let product of products" class="col-lg-4 col-md-4 col-xs-6">
+    <div class="card bg-info text-white">
+      <div class="card-body">
+        <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail card-img-top" src="/src/app/img/new/{{product}}" alt="">
+            <!-- <img class="img-fluid img-thumbnail card-img-top" src="/src/app/img/new/buterfly.jpg" alt=""> -->
+          </a>
+
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the first card</p>
+      </div>
+     </div>
+   </div>
+  </div>
+
+     <div class=" col-md-12 col-xs-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="/src/app/img/new/steels2.jpg" alt="">
+        </a>
+      </div>
+
+<!-- a new card ended -->
+
+  <!-- <div class="col-lg-4 col-md-4 col-xs-6">
+    <a href="#" class="d-block mb-4 h-100">
+   <img class="img-fluid img-thumbnail" src="/src/app/img/new/bars2.png"  alt="">
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-4 col-xs-6">
+    <a href="#" class="d-block mb-4 h-100">
+   <img class="img-fluid img-thumbnail" src="/src/app/img/new/fittings.jpg" alt="">
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-4 col-xs-6">
+    <a href="#" class="d-block mb-4 h-100">
+   <img class="img-fluid img-thumbnail" src="/src/app/img/new/volves.jpg" alt="">
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-4 col-xs-6">
+    <a href="#" class="d-block mb-4 h-100">
+   <img class="img-fluid img-thumbnail" src="/src/app/img/new/pipes2.jpg" alt="">
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-4 col-xs-6">
+    <a href="#" class="d-block mb-4 h-100">
+   <img class="img-fluid img-thumbnail" src="/src/app/img/new/flanges.jpg" alt="">
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-4 col-xs-6">
+    <a href="#" class="d-block mb-4 h-100">
+   <img class="img-fluid img-thumbnail" src="/src/app/img/new/stainless-steel-sheet.jpg" alt="">
+    </a>
+  </div>
+  <div class="col-lg-4 col-md-4 col-xs-6">
+    <a href="#" class="d-block mb-4 h-100">
+   <img class="img-fluid img-thumbnail" src="/src/app/img/new/poles.jpg" alt="">
+    </a>
+  </div> -->
+
+</div>
+ </div>
