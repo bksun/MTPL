@@ -1,3 +1,12 @@
 .navbar-text {
   color: white;
 }
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+bg-footer {
+  background: blueviolet;
+}

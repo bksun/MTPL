@@ -1,10 +1,22 @@
+#offices {
+  border: 2px solid rgb(134, 87, 172);
+  padding-bottom: 20px;
+  margin-top: 7%;
+}
+
+p, .item-name{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
 .container .row div {
   padding: 0;
   margin: 0;
 }
 
 body{
-  background:  rgb(160, 149, 149);
+  /* background:  rgb(158, 81, 81); */
 }
 
 .container .row .col-lg-4 {
@@ -17,15 +29,26 @@ body{
   padding: 0;
 }
 
-.container .row .col-lg-3 .card{
+.container .row .col-lg-4 .card{
   padding: 0;
   margin: 0;
 }
 
-.container .row .col-lg-3 img{
-  width: 100%;
-  height: 280px;
+.container .row .col-lg-2 img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
 }
+
+.container .row .col-lg-4 .card .card-body img {
+  display: flex;
+  width: 550px;
+  height: 400px;
+  padding: 0;
+  margin: 0;
+}
+
 
 /* @media (min-width: 992px) {
    body {
