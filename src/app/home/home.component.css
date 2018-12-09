@@ -15,18 +15,17 @@ p, .item-name{
   margin: 0;
 }
 
-body{
-  /* background:  rgb(158, 81, 81); */
-}
+/* body{
+} */
 
 .container .row .col-lg-4 {
   display: flex;
   border: 1px solid white;
   align-items: stretch;
-  background: rgb(11, 235, 78);
+  /* background: rgb(11, 235, 78); */
   margin: 0;
   margin-bottom: 15px;
-  padding: 0;
+  padding-left: 15px;
 }
 
 .container .row .col-lg-4 .card{
