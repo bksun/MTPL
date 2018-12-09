@@ -10,11 +10,9 @@ import { RoutingModule } from './routing/routing.module';
 import { AboutComponent } from './about/about.component';
 import { ManagementComponent } from './management/management.component';
 import { ContactComponent } from './contact/contact.component';
-<<<<<<< HEAD
+
 import { ProgressComponent } from './progress/progress.component';
-=======
 import { CertificateComponent } from './certificate/certificate.component';
->>>>>>> 36a9f53d8d690f24f6859aa51b284aabfd331d7b
 
 @NgModule({
   declarations: [
@@ -26,12 +24,9 @@ import { CertificateComponent } from './certificate/certificate.component';
     AboutComponent,
     ManagementComponent,
     ContactComponent,
-<<<<<<< HEAD
     HomeComponent,
-    ProgressComponent
-=======
+    ProgressComponent,
     CertificateComponent
->>>>>>> 36a9f53d8d690f24f6859aa51b284aabfd331d7b
   ],
   imports: [
     BrowserModule,
