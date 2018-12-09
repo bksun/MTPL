@@ -1,9 +1,9 @@
 <nav id="test" class="navbar navbar-expand-lg navbar-dark bg-company-red">
-  <a class="navbar-brand" routerLink="/home">Mec Tubes</a>
+  <a class="navbar-brand" routerLink="/home"><img src="/src/app/img/MTPLlogo.jpg" ></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <div class="collapse navbar-collapse " id="navbarNavDropdown">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
         <a class="nav-link" routerLink="/home" routerLinkActive="active-link">Home</a>
@@ -16,18 +16,18 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/management" routerLinkActive="active-link">Management</a>
       </li>
-
       <li class="nav-item">
-        <a class="nav-link" href="/sidenav">Products</a>
+          <a class="nav-link" routerLink="#" routerLinkActive="active-link">Products</a>
       </li>
-
+  
       <li class="nav-item">
-        <a class="nav-link" href="/quality">Quality</a>
-      </li>
+          <a class="nav-link" routerLink="/certificate" routerLinkActive="active-link">Quality</a>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="/contact">Contacts</a>
-      </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/contact" routerLinkActive="active-link">Contacts</a>
+        </li>
+   
 
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -42,9 +42,9 @@
  -->
 
      <li class="nav-item">
-        <div class="input-group" id="search-input" >
-          <input class="form-control border-secondary py-2" type="search" placeholder="search">
-          <div class="input-group-append">
+        <div class="input-group search text-right" id="search-input" >
+          <input class=" border-secondary py-2" type="search" placeholder="search">
+          <div class="input-group-append" style="padding-left: 4px"> 
            <button class="btn btn-outline-secondary" type="button">
             <span style="color: rgba(0, 0, 0, 0.664);" class="glyphicon glyphicon-search">search</span>
           </button>

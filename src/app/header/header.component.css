@@ -4,8 +4,8 @@
 
 .bg-company-red {
   background-color: rgb(97, 97, 192);
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 3px;
 }
 
 .navbar-nav .nav-item .input-group-append button {
@@ -33,13 +33,13 @@
 
 .navbar-nav .nav-item #search-input {
   padding-top: 12px;
-  width: 600px;
+  width: 400px;
 }
 
 
  .nav-item .nav-link {
   color:white;
-  padding: 25px;
+  padding: 15px;
   font: bold 18px Arial,Helvetica,Sans-serif;
 }
 
@@ -55,4 +55,13 @@
 
 .navbar .navbar-brand {
   font: bold 25px Arial,Helvetica,Sans-serif;
+}
+
+.navbar-nav .nav-item  .serach
+{
+  padding-left: 100px;
+}
+.navbar-nav .nav-item .active-link {
+color: rgb(143, 204, 143);
+background:transparent;
 }
