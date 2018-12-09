@@ -4,6 +4,7 @@ import { HomeComponent } from '../home/home.component';
 import { AboutComponent } from '../about/about.component';
 import { ManagementComponent } from '../management/management.component';
 import { SidenavMainComponent } from '../sidenav-main/sidenav-main.component';
+import {CertificateComponent} from '../certificate/certificate.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -11,7 +12,8 @@ const routes: Routes = [
   { path: 'contact', component: HomeComponent },
   { path: 'about', component: AboutComponent},
   { path: 'management', component: ManagementComponent},
-  { path: 'sidenav', component: SidenavMainComponent }
+  { path: 'sidenav', component: SidenavMainComponent },
+  { path: 'certificate', component: CertificateComponent }
 ];
 
 @NgModule({

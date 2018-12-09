@@ -10,6 +10,7 @@ import { RoutingModule } from './routing/routing.module';
 import { AboutComponent } from './about/about.component';
 import { ManagementComponent } from './management/management.component';
 import { ContactComponent } from './contact/contact.component';
+import { CertificateComponent } from './certificate/certificate.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     AboutComponent,
     ManagementComponent,
-    ContactComponent
+    ContactComponent,
+    CertificateComponent
   ],
   imports: [
     BrowserModule,
