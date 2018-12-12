@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 
 import { ProgressComponent } from './progress/progress.component';
 import { CertificateComponent } from './certificate/certificate.component';
+import { Notfound404Component } from './notfound404/notfound404.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CertificateComponent } from './certificate/certificate.component';
     ContactComponent,
     HomeComponent,
     ProgressComponent,
-    CertificateComponent
+    CertificateComponent,
+    Notfound404Component
   ],
   imports: [
     BrowserModule,

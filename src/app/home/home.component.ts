@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+
 export class HomeComponent implements OnInit {
   products = [];
   cities = [];
@@ -16,7 +17,7 @@ export class HomeComponent implements OnInit {
     // , 'stainless-steel-sheet.jpg', 'poles.jpg', 'fasteners2.jpg'];
 
     this.products = [
-      {img: 'buterfly.jpg', name: 'Sheets', description: 'Buterfly'},
+      {img: 'buterfly.jpg', name: 'Sheets', description: 'Sheets & Butterfly'},
       {img: 'bars2.png', name: 'bars', description: 'Bars'},
       {img: 'fittings.jpg', name: 'fittings', description: 'Fittings'},
       {img: 'volves.jpg', name: 'volves', description: 'Volves'},
@@ -42,6 +43,5 @@ export class HomeComponent implements OnInit {
       { img: 'mumbai.png', place: 'Mumbai' },
       { img: 'raipur.png', place: 'Raipur' }];
   }
-
 
 }

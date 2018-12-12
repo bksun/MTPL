@@ -4,7 +4,7 @@ import { HomeComponent } from '../home/home.component';
 import { AboutComponent } from '../about/about.component';
 import { ManagementComponent } from '../management/management.component';
 // import { SidenavMainComponent } from '../sidenav-main/sidenav-main.component';
-
+import { Notfound404Component } from '../notfound404/notfound404.component';
 import { CertificateComponent } from '../certificate/certificate.component';
 import { ContactComponent } from '../contact/contact.component';
 import { ProgressComponent } from '../progress/progress.component';
@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'management', component: ManagementComponent},
   { path: 'sidenav', component: ProgressComponent },
   { path: 'certificate', component: CertificateComponent },
-  { path:  '**', component: ProgressComponent }
+  { path:  '**', component: Notfound404Component }
 ];
 
 @NgModule({
