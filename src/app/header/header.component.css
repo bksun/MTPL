@@ -33,7 +33,8 @@
 
 .navbar-nav .nav-item #search-input {
   padding-top: 2px;
-  width: 250px;
+  width: 100%;
+  padding-right: 0px;
 }
 
 
@@ -64,4 +65,8 @@
 .navbar-nav .nav-item .active-link {
 color: rgb(143, 204, 143);
 background:transparent;
+}
+
+.navbar-nav .nav-item:hover {
+  background: rgb(107, 141, 235);
 }
