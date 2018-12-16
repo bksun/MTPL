@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
       {img: 'volves.jpg', name: 'volves', description: 'Volves'},
       {img: 'pipes2.jpg', name: 'pipes', description: 'Pipes'},
       {img: 'flanges.jpg', name: 'flanges', description: 'flanges'},
-      {img: 'stainless-steel-sheet.jpg', name: 'stainless-steel-sheet', description: 'stainless steel sheet'},
+      {img: 'stainless-steel-sheet.jpg', name: 'stainless-sheet', description: 'stainless steel sheet'},
       {img: 'poles.jpg', name: 'poles', description: 'poles'},
       {img: 'fasteners2.jpg', name: 'fasteners', description: 'fasteners'},
     ];

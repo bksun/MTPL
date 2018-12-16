@@ -8,7 +8,7 @@ import { Notfound404Component } from '../notfound404/notfound404.component';
 import { CertificateComponent } from '../certificate/certificate.component';
 import { ContactComponent } from '../contact/contact.component';
 import { ProgressComponent } from '../progress/progress.component';
-
+import { PolesComponent  } from '../poles/poles.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'management', component: ManagementComponent},
   { path: 'sidenav', component: ProgressComponent },
   { path: 'certificate', component: CertificateComponent },
+  { path: 'products/poles', component: PolesComponent },
   { path:  '**', component: Notfound404Component }
 ];
 
