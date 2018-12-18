@@ -15,6 +15,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { CertificateComponent } from './certificate/certificate.component';
 import { Notfound404Component } from './notfound404/notfound404.component';
 import { PolesComponent } from './poles/poles.component';
+import { BarsComponent } from './bars/bars.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PolesComponent } from './poles/poles.component';
     ProgressComponent,
     CertificateComponent,
     Notfound404Component,
-    PolesComponent
+    PolesComponent,
+    BarsComponent
   ],
   imports: [
     BrowserModule,
