@@ -53,17 +53,16 @@
   <div *ngFor="let product of products" class="col-lg-4 col-md-3 col-xs-6">
     <div class="card bg-info text-white">
       <div class="card-body img">
-          <a routerLink="{{product.name}}" class="d-block mb-4 h-100">
+          <a routerLink="/products/{{product.name}}" class="d-block mb-4 h-100">
               <img class="img-fluid img-thumbnail card-img-top" src="/src/app/img/new/{{product.img}}" alt="">
-              <!-- <img class="img-fluid img-thumbnail card-img-top" src="/src/app/img/new/buterfly.jpg" alt=""> -->
           </a>
         <div class="card-body text-center">
           <p class="card-text"> {{product.description | uppercase}}</p>
       </div>
      </div>
-     <div class="overlay"> High Quality Products &nbsp;&nbsp;
+     <div class="overlay"> High Quality Products Gauranteed&nbsp;&nbsp;
 
-        <a routerLink="{{product.name}}" class="d-block mb-4 h-100">
+        <a routerLink="/products/{{product.name}}" class="d-block mb-4 h-100">
             <button type="button" class="btn btn-warn">
             <strong>Product Details</strong>
           </button></a>
@@ -79,8 +78,10 @@
   <div id="offices" class="container">
    <div class="row">
     <div *ngFor="let city of cities" class="col-lg-2 col-md-2 col-xs-6">
+      <a routerLink="/contact">
         <img src="/src/app/img/city/{{city.img}}" class="rounded mx-auto d-block" alt="...">
         <p class="item-name">{{city.place}}</p>
+      </a>
     </div>
    </div>
   </div>

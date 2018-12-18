@@ -1,0 +1,24 @@
+h2 {
+  padding: 5px;
+  border: 1px solid blanchedalmond;
+}
+
+.card {
+  max-width: 100%;
+  /* margin-left: 10%; */
+}
+
+.list-group-item {
+  margin: 2px;
+  text-align: center;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.myspecs {
+  /* margin-left: 5px; */
+}
+
+

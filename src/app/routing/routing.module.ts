@@ -9,6 +9,7 @@ import { CertificateComponent } from '../certificate/certificate.component';
 import { ContactComponent } from '../contact/contact.component';
 import { ProgressComponent } from '../progress/progress.component';
 import { PolesComponent  } from '../poles/poles.component';
+import { BarsComponent  } from '../bars/bars.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'sidenav', component: ProgressComponent },
   { path: 'certificate', component: CertificateComponent },
   { path: 'products/poles', component: PolesComponent },
+  { path: 'products/bars', component: BarsComponent },
   { path:  '**', component: Notfound404Component }
 ];
 

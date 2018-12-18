@@ -16,6 +16,10 @@ import { CertificateComponent } from './certificate/certificate.component';
 import { Notfound404Component } from './notfound404/notfound404.component';
 import { PolesComponent } from './poles/poles.component';
 import { BarsComponent } from './bars/bars.component';
+import { FittingsComponent } from './fittings/fittings.component';
+import { VolvesComponent } from './volves/volves.component';
+import { FlangesComponent } from './flanges/flanges.component';
+import { FastenersComponent } from './fasteners/fasteners.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { BarsComponent } from './bars/bars.component';
     CertificateComponent,
     Notfound404Component,
     PolesComponent,
-    BarsComponent
+    BarsComponent,
+    FittingsComponent,
+    VolvesComponent,
+    FlangesComponent,
+    FastenersComponent
   ],
   imports: [
     BrowserModule,
