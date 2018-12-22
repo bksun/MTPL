@@ -20,6 +20,7 @@ import { FittingsComponent } from './fittings/fittings.component';
 import { VolvesComponent } from './volves/volves.component';
 import { FlangesComponent } from './flanges/flanges.component';
 import { FastenersComponent } from './fasteners/fasteners.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { FastenersComponent } from './fasteners/fasteners.component';
     FittingsComponent,
     VolvesComponent,
     FlangesComponent,
-    FastenersComponent
+    FastenersComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,

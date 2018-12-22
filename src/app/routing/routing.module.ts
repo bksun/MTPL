@@ -10,6 +10,9 @@ import { ContactComponent } from '../contact/contact.component';
 import { ProgressComponent } from '../progress/progress.component';
 import { PolesComponent  } from '../poles/poles.component';
 import { BarsComponent  } from '../bars/bars.component';
+import { PipesComponent } from '../pipes/pipes.component';
+import { FlangesComponent } from '../flanges/flanges.component';
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
@@ -20,6 +23,8 @@ const routes: Routes = [
   { path: 'certificate', component: CertificateComponent },
   { path: 'products/poles', component: PolesComponent },
   { path: 'products/bars', component: BarsComponent },
+  { path: 'products/pipes', component: PipesComponent },
+  { path: 'products/flanges', component: FlangesComponent },
   { path:  '**', component: Notfound404Component }
 ];
 

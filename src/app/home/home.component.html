@@ -51,7 +51,7 @@
   <div class="row">
 <!-- a new card  -->
   <div *ngFor="let product of products" class="col-lg-4 col-md-3 col-xs-6">
-    <div class="card bg-info text-white">
+    <div class="card bg-info text-white bounce">
       <div class="card-body img">
           <a routerLink="/products/{{product.name}}" class="d-block mb-4 h-100">
               <img class="img-fluid img-thumbnail card-img-top" src="/src/app/img/new/{{product.img}}" alt="">
@@ -79,7 +79,7 @@
    <div class="row">
     <div *ngFor="let city of cities" class="col-lg-2 col-md-2 col-xs-6">
       <a routerLink="/contact">
-        <img src="/src/app/img/city/{{city.img}}" class="rounded mx-auto d-block" alt="...">
+        <img src="/src/app/img/city/{{city.img}}" class=" bounce rounded mx-auto d-block" alt="...">
         <p class="item-name">{{city.place}}</p>
       </a>
     </div>
