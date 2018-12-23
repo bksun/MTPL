@@ -29,7 +29,10 @@ const routes: Routes = [
   { path: 'products/fittings', component: FittingsComponent },
   { path: 'products/flanges', component: FlangesComponent },
   { path: 'products/volves', component: VolvesComponent },
-  { path:  '**', component: Notfound404Component }
+  { path: 'products/sheets', component: ProgressComponent },
+  { path: 'products/fasteners', component: ProgressComponent },
+  { path: 'products/stainless-sheet', component: ProgressComponent },
+  { path:  '**', component: ProgressComponent }
 ];
 
 @NgModule({
