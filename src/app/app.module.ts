@@ -21,6 +21,7 @@ import { VolvesComponent } from './volves/volves.component';
 import { FlangesComponent } from './flanges/flanges.component';
 import { FastenersComponent } from './fasteners/fasteners.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { CustomComponent } from './custom/custom.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { PipesComponent } from './pipes/pipes.component';
     VolvesComponent,
     FlangesComponent,
     FastenersComponent,
-    PipesComponent
+    PipesComponent,
+    CustomComponent
   ],
   imports: [
     BrowserModule,
