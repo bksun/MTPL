@@ -1,0 +1,6 @@
+h1 {
+  margin-top: 8%;
+}
+h1 { font-size: 50px; }
+a { color: #dc8100; text-decoration: none; }
+a:hover { color: green; font-size: 20px; text-decoration: none; }

@@ -3,31 +3,32 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse " id="navbarNavDropdown">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" routerLink="/home" routerLinkActive="active-link">Home</a>
+        <a class="nav-link mylink" routerLink="/home"  data-toggle="collapse"
+          routerLinkActive="active-link">Home</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" routerLink="/about" routerLinkActive="active-link">About</a>
+        <a class="nav-link mylink" routerLink="/about" routerLinkActive="active-link">About</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" routerLink="/management" routerLinkActive="active-link">Management</a>
+        <a class="nav-link mylink" routerLink="/management" routerLinkActive="active-link">Management</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" routerLink="#" routerLinkActive="active-link">Products</a>
+          <a class="nav-link mylink" routerLink="/products" routerLinkActive="active-link">Products</a>
       </li>
-  
+
       <li class="nav-item">
-          <a class="nav-link" routerLink="/certificate" routerLinkActive="active-link">Quality</a>
+          <a class="nav-link mylink" routerLink="/certificate" routerLinkActive="active-link">Quality</a>
         </li>
 
         <li class="nav-item">
             <a class="nav-link" routerLink="/contact" routerLinkActive="active-link">Contacts</a>
         </li>
-   
+
 
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -41,16 +42,16 @@
       </li>
  -->
 
-     <li class="nav-item">
+     <!-- <li class="nav-item">
         <div class="input-group search text-right" id="search-input" >
           <input class=" border-secondary py-2" type="search" placeholder="search">
-          <div class="input-group-append" style="padding-left: 4px"> 
+         <div class="input-group-append" style="padding-left: 4px">
            <button class="btn btn-outline-secondary" type="button">
             <span style="color: rgba(0, 0, 0, 0.664);" class="glyphicon glyphicon-search">search</span>
           </button>
           </div>
        </div>
-      </li>
+      </li> -->
 
     </ul>
   </div>

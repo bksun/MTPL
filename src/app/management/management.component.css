@@ -1,6 +1,11 @@
+.overlay button a {
+  text-decoration: none;
+}
+
 .nav-link {
   color: white;
 }
+
 .mgmtPage {
   /* background:rgb(91, 91, 206); */
   margin-bottom: 0px;
@@ -29,4 +34,8 @@
 
 .pic:hover .overlay {
   opacity: 1;
+}
+
+.row:hover {
+   background: rgb(231, 235, 236);
 }

@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+
 export class HomeComponent implements OnInit {
   products = [];
   cities = [];
@@ -12,8 +13,21 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.products = ['buterfly.jpg', 'bars2.png', 'fittings.jpg', 'volves.jpg', 'pipes2.jpg', 'flanges.jpg'
-    , 'stainless-steel-sheet.jpg', 'poles.jpg', 'fasteners2.jpg'];
+    // this.products = ['buterfly.jpg', 'bars2.png', 'fittings.jpg', 'volves.jpg', 'pipes2.jpg', 'flanges.jpg'
+    // , 'stainless-steel-sheet.jpg', 'poles.jpg', 'fasteners2.jpg'];
+
+    this.products = [
+      {img: 'buterfly.jpg', name: 'Sheets', description: 'Sheets & Butterfly'},
+      {img: 'bars2.png', name: 'bars', description: 'Bars'},
+      {img: 'fittings.jpg', name: 'fittings', description: 'Fittings'},
+      {img: 'volves.jpg', name: 'volves', description: 'Volves'},
+      {img: 'pipes2.jpg', name: 'pipes', description: 'Pipes'},
+      {img: 'flanges.jpg', name: 'flanges', description: 'flanges'},
+      {img: 'stainless-steel-sheet.jpg', name: 'stainless-sheet', description: 'stainless steel sheet'},
+      {img: 'poles.jpg', name: 'poles', description: 'poles'},
+      {img: 'fasteners2.jpg', name: 'fasteners', description: 'fasteners'},
+    ];
+
 
     this.cities = [
       { img: 'ahmedabad.jpg', place: 'Ahmedabad' },
@@ -29,6 +43,5 @@ export class HomeComponent implements OnInit {
       { img: 'mumbai.png', place: 'Mumbai' },
       { img: 'raipur.png', place: 'Raipur' }];
   }
-
 
 }

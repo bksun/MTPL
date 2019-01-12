@@ -7,6 +7,6 @@ div {
   padding: 0;
 }
 
-bg-footer {
-  background: blueviolet;
+.bg-company-red {
+  background-color: rgb(97, 97, 192);
 }

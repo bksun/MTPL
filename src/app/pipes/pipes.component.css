@@ -1,0 +1,12 @@
+li {
+margin-top: 3px;
+}
+
+.img {
+  width: 300px;
+  margin: 10px;
+  height: 200px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 8px 12px 0 rgb(255, 253, 253), 0 20px 40px 0 #e4b0d4;
+
+}
