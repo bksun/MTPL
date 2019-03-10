@@ -97,9 +97,9 @@ p, .item-name{
 }
 /*  */
 /*
-@media (min-width: 992px) {
+@media (min-width: 650px) {
    body {
-    padding-top: 56px;
+    padding-top: 156px;
   }
 } */
 
@@ -108,7 +108,3 @@ p, .item-name{
   color: white;
   background: lightseagreen;
 }
-/* .card-body .card-text p{
-  bottom: 20%;
-  left: 10%;
-} */

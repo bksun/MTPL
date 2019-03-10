@@ -17,14 +17,14 @@ export class HomeComponent implements OnInit {
     // , 'stainless-steel-sheet.jpg', 'poles.jpg', 'fasteners2.jpg'];
 
     this.products = [
-      {img: 'buterfly.jpg', name: 'Sheets', description: 'Sheets & Butterfly'},
+      {img: 'pipes2.jpg', name: 'pipes', description: 'Pipes'},
       {img: 'bars2.png', name: 'bars', description: 'Bars'},
       {img: 'fittings.jpg', name: 'fittings', description: 'Fittings'},
       {img: 'volves.jpg', name: 'volves', description: 'Volves'},
-      {img: 'pipes2.jpg', name: 'pipes', description: 'Pipes'},
+      {img: 'buterfly.jpg', name: 'Sheets', description: 'Sheets & Butterfly'},
       {img: 'flanges.jpg', name: 'flanges', description: 'flanges'},
-      {img: 'stainless-steel-sheet.jpg', name: 'stainless-sheet', description: 'stainless steel sheet'},
       {img: 'poles.jpg', name: 'poles', description: 'poles'},
+      {img: 'stainless-steel-sheet.jpg', name: 'stainless-sheet', description: 'stainless steel sheet'},
       {img: 'fasteners2.jpg', name: 'fasteners', description: 'fasteners'},
     ];
 
