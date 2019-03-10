@@ -12,6 +12,7 @@
   color: red;
 
 } */
+
 a {
   text-decoration: none;
   color: black;
@@ -20,6 +21,7 @@ a {
 .overlay button {
   margin-top: 5%;
 }
+
 
 .overlay {
   position: absolute;
@@ -99,4 +101,14 @@ p, .item-name{
    body {
     padding-top: 56px;
   }
+} */
+
+
+.overlay button {
+  color: white;
+  background: lightseagreen;
+}
+/* .card-body .card-text p{
+  bottom: 20%;
+  left: 10%;
 } */
